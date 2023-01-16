@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="QE8-Team-3" />
-        <module name="TEAM3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TEAM3" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
