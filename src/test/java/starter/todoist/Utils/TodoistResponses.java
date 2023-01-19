@@ -1,5 +1,5 @@
-package starter.reqres.Utils;
+package starter.todoist.Utils;
 
-public class ReqresResponses {
-
+public class TodoistResponses {
+    public static String RESP_MSG = "responseMsg";
 }

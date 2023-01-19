@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Todoist API for Create New User Endpoint","Create a new label with valid json request","SUCCESS","2023-01-19T19:40:18.038+07:00[Asia/Bangkok]","0.0","3.97"
+"Testing Todoist API for Create New User Endpoint","Create a new label with invalid json","SUCCESS","2023-01-19T19:40:22.022+07:00[Asia/Bangkok]","0.0","1.11"
+"Testing Todoist API for Create New User Endpoint","Create a new label with empty name","SUCCESS","2023-01-19T19:40:23.132+07:00[Asia/Bangkok]","0.0","0.43"
+"Testing Todoist API for Create New User Endpoint","Create a new label with invalid token","SUCCESS","2023-01-19T19:40:23.566+07:00[Asia/Bangkok]","0.0","0.45"

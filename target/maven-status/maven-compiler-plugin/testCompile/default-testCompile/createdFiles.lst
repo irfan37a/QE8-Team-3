@@ -1,0 +1,13 @@
+starter\todoist\getALabel\GetALabelStepDefs.class
+starter\todoist\postReopenTask\ReopenTaskStepdefs.class
+starter\todoist\getAllSharedLabels\GetAllSharedLabelsStepDefs.class
+starter\todoist\deleteALabel\DeleteLabelStepdefs.class
+starter\todoist\getAllLabels\GetAllLabelStepDefs.class
+starter\todoist\TodoistAPI.class
+starter\todoist\postRemoveSharedLabel\RemoveSharedLabelStepDefs.class
+starter\todoist\Utils\Constant.class
+starter\todoist\postCreateLabel\CreateLabelStepdefs.class
+starter\todoist\postUpdateLabel\UpdateALabelStepDefs.class
+starter\todoist\Utils\TodoistResponses.class
+starter\todoist\postRenameSharedLabel\RenameSharedLabelStepDefs.class
+starter\CucumberTestSuite.class

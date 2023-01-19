@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Todoist API for Get All Shared Labels endpoint","Get all shared labels with valid token","SUCCESS","2023-01-19T19:40:28.813+07:00[Asia/Bangkok]","0.0","0.95"
+"Testing Todoist API for Get All Shared Labels endpoint","Get all shared labels with unauthorized token","SUCCESS","2023-01-19T19:40:29.765+07:00[Asia/Bangkok]","0.0","0.43"

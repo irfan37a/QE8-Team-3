@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testing Todoist API for Get a Label endpoint" skipped="0" tests="3" time="1.41" timestamp="2023-01-19 07:40:26"><testcase name="Get a label with valid id"/><testcase name="Get a label with invalid id"/><testcase name="Get a label with unauthorized token"/></testsuite>

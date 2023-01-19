@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Testing Todoist API for Update a Label endpoint
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.383 s <<< FAILURE! - in Testing Todoist API for Update a Label endpoint
+Testing Todoist API for Update a Label endpoint.Update a label with valid id  Time elapsed: 0.864 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+
+Testing Todoist API for Update a Label endpoint.Update a label with invalid id  Time elapsed: 0.517 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <400>.
+
+
