@@ -1,8 +1,0 @@
-starter/todoist/Utils/TodoistResponse.class
-starter/CucumberTestSuite.class
-starter/todoist/StepDef/CommentEndpoint/CreateNewCommentStepDef.class
-starter/todoist/StepDef/CommentEndpoint/UpdateCommentStepDef.class
-starter/todoist/StepDef/CommentEndpoint/GetCommentStepDef.class
-starter/todoist/Utils/Constant.class
-starter/todoist/StepDef/CommentEndpoint/GetAllCommentsStepDef.class
-starter/todoist/TodoistAPI.class

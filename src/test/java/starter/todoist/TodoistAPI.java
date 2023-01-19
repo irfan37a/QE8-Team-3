@@ -18,6 +18,11 @@ public class TodoistAPI {
     public static String GET_A_COMMENT = Constant.BASE_URL+"comments/{id}";
     public static String INVALID_PATH_GET_A_COMMENT = Constant.BASE_URL + "coments/{id}";
     public static String UPDATE_COMMENT = Constant.BASE_URL + "comments/{id}";
+    public static String GET_ACTIVE_TASK = Constant.BASE_URL+"tasks/{id}";
+    public static String INVALID_GET_ACTIVE_TASK = Constant.BASE_URL+"task/{id}";
+    public static String CLOSE_TASK = Constant.BASE_URL+"tasks/{id}/close";
+    public static String INVALID_CLOSE_TASK = Constant.BASE_URL+"tasks/{id}/closse";
+
 
 
     @Step("Get a comments")
@@ -130,5 +135,52 @@ public class TodoistAPI {
                 .body(json);
     }
 
+    @Step("Delete comment")
+    public void deleteComment(String id){
+        String token = "6cbd35bffb18682aba3874e9563f7f3d0d3b6ada";
+        String authToken = "Bearer " + token;
 
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.ID,id);
+    }
+
+    @Step("Delete comment")
+    public void noAuthDeleteComment(String id){
+        SerenityRest.given()
+                .pathParam(TodoistResponse.ID,id);
+    }
+
+    @Step("Get active task")
+    public void getActiveTask(String id){
+        String token = "6cbd35bffb18682aba3874e9563f7f3d0d3b6ada";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.ID, id);
+    }
+
+    @Step("Get active task")
+    public void noAuthGetActiveTask(String id){
+        SerenityRest.given()
+                .pathParam(TodoistResponse.ID, id);
+    }
+
+
+    @Step("Close task")
+    public void closeTask(String id){
+        String token = "6cbd35bffb18682aba3874e9563f7f3d0d3b6ada";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.ID, id);
+    }
+
+    @Step("Close task")
+    public void noAuthCloseTask(String id){
+        SerenityRest.given()
+                .pathParam(TodoistResponse.ID, id);
+    }
 }
