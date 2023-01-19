@@ -16,9 +16,9 @@ public class GetAllLabelStepDefs {
     @Steps
     TodoistAPI todoistAPI;
 
-    @Given("Get all {string} with valid token")
-    public void getAllLabelsWithValidToken(String labels) {
-        todoistAPI.getAllLabels(labels);
+    @Given("Get all labels with valid token")
+    public void getAllLabelsWithValidToken() {
+        todoistAPI.getAllLabels();
     }
 
     @When("Send request get all labels")
@@ -32,8 +32,8 @@ public class GetAllLabelStepDefs {
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(successJsonSchema));
     }
 
-    @Given("Get all {string} with invalid token")
-    public void getAllLabelsWithInvalidToken(String labels) {
-        todoistAPI.getAllLabels_inv_token(labels);
+    @Given("Get all labels with invalid token")
+    public void getAllLabelsWithInvalidToken() {
+        todoistAPI.getAllLabels_inv_token();
     }
 }

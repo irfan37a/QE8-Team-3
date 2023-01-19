@@ -1,14 +1,14 @@
+@GroupProject
 Feature: Testing Todoist API for Get All Label endpoint
 
-  @GroupProject
   Scenario: Get all labels with valid token
-    Given Get all "labels" with valid token
+    Given Get all labels with valid token
     When Send request get all labels
     Then API should return status code 200
     And Validate body page same as json schema
 
-  @GroupProject
+
   Scenario: Get all labels with unauthorized token
-    Given Get all "labels" with invalid token
+    Given Get all labels with invalid token
     And Send request get all labels
     Then API should return status code 401

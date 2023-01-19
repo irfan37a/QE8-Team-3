@@ -6,9 +6,10 @@ import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Steps;
 import starter.todoist.TodoistAPI;
 import starter.todoist.Utils.Constant;
+import starter.todoist.Utils.TodoistResponses;
 
 import java.io.File;
-
+import static org.hamcrest.Matchers.equalTo;
 public class RenameSharedLabelStepDefs {
 
     @Steps
@@ -16,8 +17,8 @@ public class RenameSharedLabelStepDefs {
 
     @Given("Post rename shared label with valid json")
     public void postRenameSharedLabelWithValidJson() {
-        File jsonValid = new File(Constant.JSON_REQUEST+"/RenameSharedLabel/RenameLabel.json");
-        todoistAPI.renameSharedLabel(jsonValid);
+        File jsonValid1 = new File(Constant.JSON_REQUEST+"/RenameSharedLabel/RenameLabel.json");
+        todoistAPI.renameSharedLabel(jsonValid1);
     }
 
     @When("Send request post rename shared label")
@@ -35,5 +36,11 @@ public class RenameSharedLabelStepDefs {
     public void postRenameSharedLabelWithValidJsonWithInvalidToken() {
         File inv_token_json = new File(Constant.JSON_REQUEST+"/RenameSharedLabel/RenameLabel.json");
         todoistAPI.renameSharedLabel_invalid(inv_token_json);
+    }
+
+    @Given("Post rename shared label with empty json")
+    public void postRenameSharedLabelWithEmptyJson() {
+        File empty_json = new File(Constant.JSON_REQUEST+"/RenameSharedLabel/RenameLabel_empty.json");
+        todoistAPI.renameSharedLabel(empty_json);
     }
 }

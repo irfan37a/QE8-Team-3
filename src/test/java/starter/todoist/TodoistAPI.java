@@ -13,12 +13,12 @@ public class TodoistAPI {
     public static String POST_CREATE_LABEL = Constant.BASE_URL + "/labels";
     public static String GET_A_LABEL = Constant.BASE_URL + "/labels/{id}";
     public static String DELETE_A_LABEL = Constant.BASE_URL + "/labels/{id}";
-    public static String GET_ALL_LABELS = Constant.BASE_URL + "/{labels}";
+    public static String GET_ALL_LABELS = Constant.BASE_URL + "/labels";
     public static String POST_UPDATE_LABEL = Constant.BASE_URL + "/labels/{id}";
     public static String POST_REOPEN_TASK = Constant.BASE_URL + "/tasks/{id}/reopen";
     public static String POST_RENAME_LABEL = Constant.BASE_URL + "/labels/shared/rename";
     public static String POST_REMOVE_LABEL = Constant.BASE_URL + "/labels/shared/remove";
-    public static String GET_ALL_SHARED_LABELS = Constant.BASE_URL + "/{labels}/shared";
+    public static String GET_ALL_SHARED_LABELS = Constant.BASE_URL + "/labels/shared";
     public static String POST_UPDATE_TASK = Constant.BASE_URL + "/tasks/{id}";
 
     @Step("Post create label")
@@ -44,23 +44,21 @@ public class TodoistAPI {
     }
 
     @Step("Get all labels valid token")
-    public void getAllLabels(String labels){
+    public void getAllLabels(){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
-                .headers("Authorization",authToken)
-                .pathParam("labels",labels);
+                .headers("Authorization",authToken);
     }
 
     @Step("Get all labels invalid token")
-    public void getAllLabels_inv_token(String labels){
+    public void getAllLabels_inv_token(){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b211";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
-                .headers("Authorization",authToken)
-                .pathParam("labels",labels);
+                .headers("Authorization",authToken);
     }
 
     @Step("Get a labels valid token")
@@ -93,23 +91,25 @@ public class TodoistAPI {
                 .pathParam("id",id);
     }
 
-    @Step("Update a label valid token")
+    @Step("Post Update a label valid token")
     public void UpdateALabel(String id, File json){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .pathParam("id",id)
                 .body(json);
     }
 
-    @Step("Update a labels invalid token")
+    @Step("Post Update a labels invalid token")
     public void UpdateALabel_invalid_token(String id, File json){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b211";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .pathParam("id",id)
                 .body(json);
@@ -121,6 +121,7 @@ public class TodoistAPI {
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .pathParam("id",id)
                 .body(json);
@@ -187,23 +188,21 @@ public class TodoistAPI {
     }
 
     @Step("Get all labels valid token")
-    public void getAllSharedLabels(String labels){
+    public void getAllSharedLabels(){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
-                .headers("Authorization",authToken)
-                .pathParam("labels",labels);
+                .headers("Authorization",authToken);
     }
 
     @Step("Get all labels invalid token")
-    public void getAllSharedLabels_inv_token(String labels){
+    public void getAllSharedLabels_inv_token(){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b211";
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
-                .headers("Authorization",authToken)
-                .pathParam("labels",labels);
+                .headers("Authorization",authToken);
     }
 
     @Step("Rename a shared label")
@@ -212,6 +211,7 @@ public class TodoistAPI {
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .body(json);
     }
@@ -222,6 +222,7 @@ public class TodoistAPI {
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .body(json);
     }
@@ -232,6 +233,7 @@ public class TodoistAPI {
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
                 .body(json);
     }
@@ -242,7 +244,32 @@ public class TodoistAPI {
         String authToken = "Bearer " + token;
 
         SerenityRest.given()
+                .contentType(ContentType.JSON)
                 .headers("Authorization",authToken)
+                .body(json);
+    }
+
+    @Step("Update a task label")
+    public void updateATaskid(String id,File json){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .pathParam("id",id)
+                .headers("Authorization",authToken)
+                .contentType(ContentType.JSON)
+                .body(json);
+    }
+
+    @Step("Update a task label")
+    public void updateATaskid_invalid_token(String id,File json){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b2ee1";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .pathParam("id",id)
+                .headers("Authorization",authToken)
+                .contentType(ContentType.JSON)
                 .body(json);
     }
 

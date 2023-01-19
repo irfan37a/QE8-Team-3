@@ -15,9 +15,9 @@ public class GetAllSharedLabelsStepDefs {
     @Steps
     TodoistAPI todoistAPI;
 
-    @Given("Get all shared {string} with valid token")
-    public void getAllSharedWithValidToken(String labels) {
-        todoistAPI.getAllLabels(labels);
+    @Given("Get all shared labels with valid token")
+    public void getAllSharedWithValidToken() {
+        todoistAPI.getAllSharedLabels();
     }
 
     @When("Send request get all shared labels")
@@ -31,8 +31,8 @@ public class GetAllSharedLabelsStepDefs {
         SerenityRest.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(successJsonSchema_Shared));
     }
 
-    @Given("Get all shared {string} with invalid token")
-    public void getAllSharedWithInvalidToken(String labels) {
-        todoistAPI.getAllSharedLabels_inv_token(labels);
+    @Given("Get all shared labels with invalid token")
+    public void getAllSharedWithInvalidToken() {
+        todoistAPI.getAllSharedLabels_inv_token();
     }
 }

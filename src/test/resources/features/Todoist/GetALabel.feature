@@ -1,6 +1,6 @@
+@GroupProject
 Feature: Testing Todoist API for Get a Label endpoint
 
-  @GroupProject
   Scenario Outline: Get a label with valid id
     Given Get a label with valid id "<id>"
     When Send request get a label
@@ -10,7 +10,6 @@ Feature: Testing Todoist API for Get a Label endpoint
     |id|
     |2164485732  |
 
-  @GroupProject
   Scenario Outline: Get a label with invalid id
     Given Get a label with invalid id <id>
     When Send request get a label
@@ -19,7 +18,7 @@ Feature: Testing Todoist API for Get a Label endpoint
       | id |
       | 2  |
 
-  @GroupProject
+
   Scenario Outline: Get a label with unauthorized token
     Given Get a label with valid id "<id>" but invalid token
     And Send request get a label

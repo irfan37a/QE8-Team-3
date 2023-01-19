@@ -1,6 +1,6 @@
+@GroupProject
 Feature: Testing todoist API for Reopen a Task endpoint
 
-  @GroupProject
   Scenario Outline: Reopen a task with valid id
     Given Reopen a task with valid "<id>"
     When Send request reopen a task
@@ -9,7 +9,6 @@ Feature: Testing todoist API for Reopen a Task endpoint
       | id |
       | 6529718710   |
 
-  @GroupProject
   Scenario Outline: Reopen a task with invalid id
     Given Reopen a task with invalid <id>
     When Send request reopen a task
@@ -18,7 +17,6 @@ Feature: Testing todoist API for Reopen a Task endpoint
       | id |
       | 2  |
 
-  @GroupProject
   Scenario Outline: Reopen a task with unauthorized token
     Given Reopen a task with valid "<id>" with invalid token
     When Send request reopen a task
