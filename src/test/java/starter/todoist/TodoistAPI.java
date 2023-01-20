@@ -36,6 +36,7 @@ public class TodoistAPI {
     public static String INVALID_CLOSE_TASK = Constant.BASE_URL+"tasks/{id}/closse";
 
     public static String GET_ALL_SECTIONS = Constant.BASE_URL+"sections?project_id={project_id}";
+    public static String GET_SINGLE_SECTIONS = Constant.BASE_URL+"sections?id={id}";
     public static String POST_CREATE_NEW_SECTIONS = Constant.BASE_URL+"sections";
 
     public static String UPDATE_SECTIONS = Constant.BASE_URL+"sections/7025";
@@ -492,5 +493,15 @@ public class TodoistAPI {
         SerenityRest.given()
                 .headers("Authorization",authToken)
                 .pathParam("id",id);
+    }
+
+    @Step
+    public void getSingleSections(String id){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.ID, id);
     }
 }
