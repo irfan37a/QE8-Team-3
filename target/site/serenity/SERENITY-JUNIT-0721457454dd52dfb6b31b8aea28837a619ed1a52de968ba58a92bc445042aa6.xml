@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing todoist API for Delete a Label endpoint" skipped="0" tests="3" time="2.82" timestamp="2023-01-20 02:29:55"><testcase name="Delete a label with valid id"/><testcase name="Delete a label with invalid id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;204&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing todoist API for Delete a Label endpoint" skipped="0" tests="3" time="2.41" timestamp="2023-01-20 01:01:32"><testcase name="Delete a label with valid id"/><testcase name="Delete a label with invalid id"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;204&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;204&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;204&gt;.
@@ -12,6 +12,6 @@ groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
 groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
-starter.todoist.postCreateLabel.CreateLabelStepdefs.shouldReturnStatusCode(CreateLabelStepdefs.java:34)&#13;
-✽.API should return status code 404(classpath:features/Todoist/DeleteALabel.feature:15)&#13;
+starter.todoist.StepDef.LabelsEndpoint.CreateLabelStepdefs.shouldReturnStatusCode(CreateLabelStepdefs.java:34)&#13;
+✽.API should return status code 404(classpath:features/Labels/DeleteALabel.feature:15)&#13;
 </system-err></testcase><testcase name="Delete a label with unauthorized token"/></testsuite>

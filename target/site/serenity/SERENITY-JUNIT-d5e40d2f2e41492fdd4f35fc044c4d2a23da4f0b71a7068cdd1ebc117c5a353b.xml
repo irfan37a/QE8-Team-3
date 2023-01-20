@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing Todoist API for Rename Shared Label Endpoint" skipped="0" tests="4" time="2.25" timestamp="2023-01-20 02:30:17"><testcase name="Rename shared label with valid label"/><testcase name="Rename shared label with invalid label"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;204&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Testing Todoist API for Rename Shared Label Endpoint" skipped="0" tests="4" time="3.46" timestamp="2023-01-20 01:01:42"><testcase name="Rename shared label with valid label"/><testcase name="Rename shared label with invalid label"><failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; but was &lt;204&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;204&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;404&gt; but was &lt;204&gt;.
@@ -12,6 +12,6 @@ groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
 groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
-starter.todoist.postCreateLabel.CreateLabelStepdefs.shouldReturnStatusCode(CreateLabelStepdefs.java:34)&#13;
-✽.API should return status code 404(classpath:features/Todoist/RenameSharedLabel.feature:12)&#13;
+starter.todoist.StepDef.LabelsEndpoint.CreateLabelStepdefs.shouldReturnStatusCode(CreateLabelStepdefs.java:34)&#13;
+✽.API should return status code 404(classpath:features/Labels/RenameSharedLabel.feature:12)&#13;
 </system-err></testcase><testcase name="Rename shared label with invalid token"/><testcase name="Rename shared label with empty json"/></testsuite>

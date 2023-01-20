@@ -1,0 +1,90 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome2",
+    "definitions": {
+        "Welcome2": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "assigner_id": {
+                    "type": "null"
+                },
+                "assignee_id": {
+                    "type": "null"
+                },
+                "project_id": {
+                    "type": "string"
+                },
+                "section_id": {
+                    "type": "null"
+                },
+                "parent_id": {
+                    "type": "null"
+                },
+                "order": {
+                    "type": "integer"
+                },
+                "content": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "is_completed": {
+                    "type": "boolean"
+                },
+                "labels": {
+                    "type": "array",
+                    "items": {}
+                },
+                "priority": {
+                    "type": "integer"
+                },
+                "comment_count": {
+                    "type": "integer"
+                },
+                "creator_id": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "created_at": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "due": {
+                    "type": "null"
+                },
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ]
+                }
+            },
+            "required": [
+                "assignee_id",
+                "assigner_id",
+                "comment_count",
+                "content",
+                "created_at",
+                "creator_id",
+                "description",
+                "due",
+                "id",
+                "is_completed",
+                "labels",
+                "order",
+                "parent_id",
+                "priority",
+                "project_id",
+                "section_id",
+                "url"
+            ],
+            "title": "Welcome2"
+        }
+    }
+}

@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Testing Todoist API for Update a Task endpoint","Update a Task with valid id","SUCCESS","2023-01-20T02:30:25.935+07:00[Asia/Bangkok]","0.0","1.11"
-"Testing Todoist API for Update a Task endpoint","Update a Task with invalid id","SUCCESS","2023-01-20T02:30:27.047+07:00[Asia/Bangkok]","0.0","0.91"
-"Testing Todoist API for Update a Task endpoint","Update a Task with invalid json","SUCCESS","2023-01-20T02:30:27.962+07:00[Asia/Bangkok]","0.0","0.97"
-"Testing Todoist API for Update a Task endpoint","Update a Task with invalid token","SUCCESS","2023-01-20T02:30:28.938+07:00[Asia/Bangkok]","0.0","0.87"
-"Testing Todoist API for Update a Task endpoint","Update a Task with empty json","SUCCESS","2023-01-20T02:30:29.809+07:00[Asia/Bangkok]","0.0","0.4"

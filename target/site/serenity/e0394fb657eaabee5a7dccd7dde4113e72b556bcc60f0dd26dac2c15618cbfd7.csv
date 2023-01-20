@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create new comment","Post create new comment with valid json","SUCCESS","2023-01-20T13:01:19.618+07:00[Asia/Bangkok]","0.0","1.29"
+"Create new comment","Post create new comment with invalid path","SUCCESS","2023-01-20T13:01:20.912+07:00[Asia/Bangkok]","0.0","0.49"
+"Create new comment","Post create new comment without authentication","SUCCESS","2023-01-20T13:01:21.406+07:00[Asia/Bangkok]","0.0","1.23"
+"Create new comment","Post create new comment with empty json key","SUCCESS","2023-01-20T13:01:22.642+07:00[Asia/Bangkok]","0.0","0.99"
+"Create new comment","Post create new comment with invalid json","SUCCESS","2023-01-20T13:01:23.64+07:00[Asia/Bangkok]","0.0","0.97"

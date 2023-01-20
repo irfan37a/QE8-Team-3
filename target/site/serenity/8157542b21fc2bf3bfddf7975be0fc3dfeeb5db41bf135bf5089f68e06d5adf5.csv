@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Testing Todoist API for Update a Label endpoint","Update a label with valid id","SUCCESS","2023-01-20T02:30:22.371+07:00[Asia/Bangkok]","0.0","1.44"
-"Testing Todoist API for Update a Label endpoint","Update a label with invalid id","SUCCESS","2023-01-20T02:30:23.81+07:00[Asia/Bangkok]","0.0","0.91"
-"Testing Todoist API for Update a Label endpoint","Update a label with unauthorized token","SUCCESS","2023-01-20T02:30:24.725+07:00[Asia/Bangkok]","0.0","0.41"
-"Testing Todoist API for Update a Label endpoint","Update a label with invalid json","SUCCESS","2023-01-20T02:30:25.138+07:00[Asia/Bangkok]","0.0","0.39"
-"Testing Todoist API for Update a Label endpoint","Update a label with empty json","SUCCESS","2023-01-20T02:30:25.535+07:00[Asia/Bangkok]","0.0","0.39"

@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Testing todoist API for Remove Shared Label endpoint","Remove Shared Label with valid label","SUCCESS","2023-01-20T02:30:15.382+07:00[Asia/Bangkok]","0.0","0.94"
-"Testing todoist API for Remove Shared Label endpoint","Remove Shared Label with invalid label","FAILURE","2023-01-20T02:30:16.326+07:00[Asia/Bangkok]","0.0","1.11"
-"Testing todoist API for Remove Shared Label endpoint","Remove Shared Label with unauthorized token","SUCCESS","2023-01-20T02:30:17.442+07:00[Asia/Bangkok]","0.0","0.41"
