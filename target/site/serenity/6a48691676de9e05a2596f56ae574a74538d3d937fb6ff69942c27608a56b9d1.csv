@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing Todoist API for Rename Shared Label Endpoint","Rename shared label with invalid label","FAILURE","2023-01-20T02:30:18.284+07:00[Asia/Bangkok]","0.0","0.95"

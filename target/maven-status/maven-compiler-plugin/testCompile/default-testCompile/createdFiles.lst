@@ -11,3 +11,4 @@ starter\todoist\postUpdateLabel\UpdateALabelStepDefs.class
 starter\todoist\Utils\TodoistResponses.class
 starter\todoist\postRenameSharedLabel\RenameSharedLabelStepDefs.class
 starter\CucumberTestSuite.class
+starter\todoist\postUpdateTask\UpdateTaskStepdefs.class

@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-01-2023 19:40</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 02:30</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     Update a label with invalid id
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -246,7 +246,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given Update a label with invalid id 2
+                                                Given Update a label with invalid id 2 but valid json
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -255,7 +255,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">003ms</span></td>
+                        <td width="100"><span class="top-level-step">004ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -302,7 +302,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                And Send request update a label
+                                                When Send request update a label
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -311,7 +311,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">504ms</span></td>
+                        <td width="100"><span class="top-level-step">902ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -345,20 +345,20 @@
                                 <div class="card-body">
                                     <h4>Response</h4>
                                         <p>URL: https://api.todoist.com/rest/v2/labels/2</p>
-                                        <p>Status code: 400</p>
-                                        <p>Content Type: text/plain</p>
+                                        <p>Status code: 404</p>
+                                        <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Authorization=Bearer bf57e110ca3d532fcbfb0e810e858518bb1b8b21<br>Accept=*/*<br>Content-Type=text/plain; charset=ISO-8859-1</pre>
+                                        <pre>Authorization=Bearer bf57e110ca3d532fcbfb0e810e858518bb1b8b21<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                         <h4>Content Body</h4>
                                         <pre>C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\resources\features\JSON\Request\UpdateLabel\UpdateLabel.json</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Content-Type: text/plain; charset=utf-8<br>Content-Length: 70<br>Connection: keep-alive<br>Date: Thu, 19 Jan 2023 12:40:35 GMT<br>Access-Control-Allow-Credentials: false<br>Access-Control-Allow-Origin: *<br>Cache-Control: no-cache<br>Referrer-Policy: strict-origin-when-cross-origin<br>Set-Cookie: csrf=59684e5a81bb4a3aa33a5a517a300481; Expires=Sun, 16-Jan-2033 12:40:35 GMT; Secure; Path=/; SameSite=None<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload<br>Vary: Accept-Encoding<br>X-Cache: Error from cloudfront<br>Via: 1.1 95ca471164dede4871e8b2cfc5cbb5f2.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK50-P2<br>X-Amz-Cf-Id: GqjoqSz_H7qKD7lfP6-S6GqTCIofSclXdu7BKm4eGfmLqF6oQ0upow==</pre>
+                                        <pre>Content-Type: text/plain; charset=utf-8<br>Content-Length: 15<br>Connection: keep-alive<br>Date: Thu, 19 Jan 2023 19:30:23 GMT<br>Access-Control-Allow-Credentials: false<br>Access-Control-Allow-Origin: *<br>Cache-Control: no-cache<br>Referrer-Policy: strict-origin-when-cross-origin<br>Set-Cookie: csrf=01091a8e81f44049b0e84217c1b8aa59; Expires=Sun, 16-Jan-2033 19:30:23 GMT; Secure; Path=/; SameSite=None<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload<br>Vary: Accept-Encoding<br>X-Cache: Error from cloudfront<br>Via: 1.1 33226affc74d202f177601de1b2576aa.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK50-P2<br>X-Amz-Cf-Id: dUzt_AkpUdCgr4UsNB53M7YFJUBpcteEY5wbNM2AuflpGQelQ09iKQ==</pre>
                                     <h4>Response Body</h4>
-                                        <pre>At least one of name, order, color or is_favorite fields should be set</pre>
+                                        <pre>Label not found</pre>
                                         <h4>Response Cookies</h4>
-                                        <pre>csrf=59684e5a81bb4a3aa33a5a517a300481;Path=/;Secure;Expires=1/16/33 12:40 PM;SameSite=None</pre>
+                                        <pre>csrf=01091a8e81f44049b0e84217c1b8aa59;Path=/;Secure;Expires=1/16/33 7:30 PM;SameSite=None</pre>
                                 </div>
                             </div>
                         </div>
@@ -375,12 +375,12 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -394,51 +394,13 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">005ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">003ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;404&gt; but was &lt;400&gt;.<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-5""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-5">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:-1)<br />starter.todoist.postCreateLabel.CreateLabelStepdefs.shouldReturnStatusCode(CreateLabelStepdefs.java:34)<br />✽.API should return status code 404(classpath:features/Todoist/UpdateALabel.feature:16)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.52s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.91s</em></span></td>
                 </tr>
 
             </table>

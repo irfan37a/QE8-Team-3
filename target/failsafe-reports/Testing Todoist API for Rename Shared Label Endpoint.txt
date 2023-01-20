@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Testing Todoist API for Rename Shared Label Endpoint
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.262 s <<< FAILURE! - in Testing Todoist API for Rename Shared Label Endpoint
+Testing Todoist API for Rename Shared Label Endpoint.Rename shared label with invalid label  Time elapsed: 0.948 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <204>.
+
+

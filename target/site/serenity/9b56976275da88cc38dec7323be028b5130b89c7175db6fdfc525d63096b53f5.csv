@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Testing Todoist API for Update a Label endpoint","Update a label with valid id","FAILURE","2023-01-19T19:40:34.085+07:00[Asia/Bangkok]","0.0","0.86"
-"Testing Todoist API for Update a Label endpoint","Update a label with invalid id","FAILURE","2023-01-19T19:40:34.946+07:00[Asia/Bangkok]","0.0","0.52"
