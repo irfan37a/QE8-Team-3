@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Update a comment","Update a comment with valid id","SUCCESS","2023-01-20T13:01:24.621+07:00[Asia/Bangkok]","0.0","1.02"
+"Update a comment","Update a comment with invalid id","SUCCESS","2023-01-20T13:01:25.641+07:00[Asia/Bangkok]","0.0","0.43"
+"Update a comment","Update a comment without authentication","SUCCESS","2023-01-20T13:01:26.071+07:00[Asia/Bangkok]","0.0","0.98"
+"Update a comment","Update a comment with invalid json","SUCCESS","2023-01-20T13:01:27.054+07:00[Asia/Bangkok]","0.0","1.03"
+"Update a comment","Update a comment with empty json key","SUCCESS","2023-01-20T13:01:28.09+07:00[Asia/Bangkok]","0.0","0.44"
+"Update a comment","Update a comment with invalid path","SUCCESS","2023-01-20T13:01:28.53+07:00[Asia/Bangkok]","0.0","1.01"

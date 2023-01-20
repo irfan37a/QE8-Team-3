@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Testing todoist API for Remove Shared Label endpoint
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.825 s <<< FAILURE! - in Testing todoist API for Remove Shared Label endpoint
+Testing todoist API for Remove Shared Label endpoint.Remove Shared Label with invalid label  Time elapsed: 0.507 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <204>.
+
+

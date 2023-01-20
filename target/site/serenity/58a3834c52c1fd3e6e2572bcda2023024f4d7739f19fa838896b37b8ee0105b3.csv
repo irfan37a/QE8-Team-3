@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get all comments","Get all comments with valid project id","SUCCESS","2023-01-20T13:01:09.281+07:00[Asia/Bangkok]","0.0","1.47"
+"Get all comments","Get all comments with invalid project id","SUCCESS","2023-01-20T13:01:10.756+07:00[Asia/Bangkok]","0.0","0.91"
+"Get all comments","Get all comments without project id","SUCCESS","2023-01-20T13:01:11.667+07:00[Asia/Bangkok]","0.0","1.03"
+"Get all comments","Get all comments without authentication","SUCCESS","2023-01-20T13:01:12.701+07:00[Asia/Bangkok]","0.0","0.95"
+"Get all comments","Get all comments with invalid path","SUCCESS","2023-01-20T13:01:13.655+07:00[Asia/Bangkok]","0.0","0.9"

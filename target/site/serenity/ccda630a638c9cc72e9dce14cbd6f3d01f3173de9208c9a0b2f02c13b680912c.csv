@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing todoist API for Delete a Label endpoint","Delete a label with invalid id","FAILURE","2023-01-20T13:01:33.353+07:00[Asia/Bangkok]","0.0","0.95"

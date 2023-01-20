@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete a comment","Delete a comment with valid id","SUCCESS","2023-01-20T13:01:01.095+07:00[Asia/Bangkok]","0.0","3.81"
+"Delete a comment","Delete a comment without authentication","SUCCESS","2023-01-20T13:01:06.015+07:00[Asia/Bangkok]","0.0","1.1"
+"Delete a comment","Delete a comment with invalid path","SUCCESS","2023-01-20T13:01:08.165+07:00[Asia/Bangkok]","0.0","1.11"

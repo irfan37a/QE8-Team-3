@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get a comment","Get a comment with valid parameter","SUCCESS","2023-01-20T13:01:14.569+07:00[Asia/Bangkok]","0.0","1.02"
+"Get a comment","Get a comment with invalid parameter","SUCCESS","2023-01-20T13:01:15.596+07:00[Asia/Bangkok]","0.0","1.03"
+"Get a comment","Get a comment without parameter","SUCCESS","2023-01-20T13:01:16.629+07:00[Asia/Bangkok]","0.0","1.06"
+"Get a comment","Get a comment without authentication","SUCCESS","2023-01-20T13:01:17.694+07:00[Asia/Bangkok]","0.0","0.99"
+"Get a comment","Get a comments with invalid path","SUCCESS","2023-01-20T13:01:18.684+07:00[Asia/Bangkok]","0.0","0.92"
