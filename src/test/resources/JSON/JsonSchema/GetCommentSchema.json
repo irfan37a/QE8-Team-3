@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome3",
+  "definitions": {
+    "Welcome3": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "task_id": {
+          "type": "null"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "posted_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "attachment": {
+          "$ref": "#/definitions/Attachment"
+        }
+      },
+      "required": [
+        "attachment",
+        "content",
+        "id",
+        "posted_at",
+        "project_id",
+        "task_id"
+      ],
+      "title": "Welcome3"
+    },
+    "Attachment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "file_name": {
+          "type": "string"
+        },
+        "file_type": {
+          "type": "string"
+        },
+        "file_url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".pdf"
+          ]
+        }
+      },
+      "required": [
+        "file_name",
+        "file_type",
+        "file_url"
+      ],
+      "title": "Attachment"
+    }
+  }
+}
