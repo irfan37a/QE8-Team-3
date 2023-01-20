@@ -122,6 +122,11 @@
             <version>5.2.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.prompto</groupId>
+            <artifactId>ProjectsApp</artifactId>
+            <version>0.0.98</version>
+        </dependency>
 
     </dependencies>
     <build>
