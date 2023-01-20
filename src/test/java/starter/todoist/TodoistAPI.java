@@ -30,9 +30,19 @@ public class TodoistAPI {
     public static String INVALID_PATH_GET_A_COMMENT = Constant.BASE_URL + "coments/{id}";
     public static String UPDATE_COMMENT = Constant.BASE_URL + "comments/{id}";
     public static String GET_ACTIVE_TASK = Constant.BASE_URL+"tasks/{id}";
+    public static String GET_ACTIVE_TASK2 = Constant.BASE_URL+"tasks";
     public static String INVALID_GET_ACTIVE_TASK = Constant.BASE_URL+"task/{id}";
     public static String CLOSE_TASK = Constant.BASE_URL+"tasks/{id}/close";
     public static String INVALID_CLOSE_TASK = Constant.BASE_URL+"tasks/{id}/closse";
+
+    public static String GET_ALL_SECTIONS = Constant.BASE_URL+"sections?project_id={project_id}";
+    public static String POST_CREATE_NEW_SECTIONS = Constant.BASE_URL+"sections";
+
+    public static String UPDATE_SECTIONS = Constant.BASE_URL+"sections/7025";
+
+    public static String DELETE_SECTIONS = Constant.BASE_URL + "sections/{id}";
+    public static String DELETE_TASK = Constant.BASE_URL + "tasks/{id}";
+
 
     @Step("Post create label")
     public void postCreateLabel(File json) {
@@ -445,5 +455,42 @@ public class TodoistAPI {
     public void noAuthCloseTask(String id){
         SerenityRest.given()
                 .pathParam(TodoistResponse.ID, id);
+    }
+    @Step
+    public void getAllLSections(String project_id){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.PROJECT_ID, project_id);
+    }
+
+    @Step("Delete Sections")
+    public void deleteSections(String id){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam("id",id);
+    }
+
+    @Step("Get active task")
+    public void getActiveTask2(){
+        String token = "6cbd35bffb18682aba3874e9563f7f3d0d3b6ada";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken);
+    }
+    @Step("Delete Task")
+    public void deleteTask(String id){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam("id",id);
     }
 }

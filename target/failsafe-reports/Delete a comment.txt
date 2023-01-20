@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: Delete a comment
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.361 s <<< FAILURE! - in Delete a comment
-Delete a comment.Delete a comment with invalid id  Time elapsed: 1.056 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.97 s <<< FAILURE! - in Delete a comment
+Delete a comment.Delete a comment with invalid id  Time elapsed: 1.11 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <204>.
 
 
-Delete a comment.Delete a comment with unregistered id  Time elapsed: 1.037 s  <<< FAILURE!
+Delete a comment.Delete a comment with unregistered id  Time elapsed: 0.955 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <404> but was <204>.

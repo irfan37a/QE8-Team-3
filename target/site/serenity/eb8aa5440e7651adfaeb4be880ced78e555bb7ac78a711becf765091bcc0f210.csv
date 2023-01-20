@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Testing todoist API for Reopen a Task endpoint","Reopen a task with valid id","SUCCESS","2023-01-20T13:01:56.19+07:00[Asia/Bangkok]","0.0","1.04"
-"Testing todoist API for Reopen a Task endpoint","Reopen a task with invalid id","SUCCESS","2023-01-20T13:01:57.237+07:00[Asia/Bangkok]","0.0","0.88"
-"Testing todoist API for Reopen a Task endpoint","Reopen a task with unauthorized token","SUCCESS","2023-01-20T13:01:58.119+07:00[Asia/Bangkok]","0.0","1.01"
+"Testing todoist API for Reopen a Task endpoint","Reopen a task with valid id","SUCCESS","2023-01-20T15:11:38.308+07:00[Asia/Bangkok]","0.0","0.35"
+"Testing todoist API for Reopen a Task endpoint","Reopen a task with invalid id","SUCCESS","2023-01-20T15:11:38.677+07:00[Asia/Bangkok]","0.0","0.82"
+"Testing todoist API for Reopen a Task endpoint","Reopen a task with unauthorized token","SUCCESS","2023-01-20T15:11:39.511+07:00[Asia/Bangkok]","0.0","0.34"
