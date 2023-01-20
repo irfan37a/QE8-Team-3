@@ -1,4 +1,6 @@
 starter\todoist\StepDef\LabelsEndpoint\GetALabelStepDefs.class
+starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDeff.class
+starter\todoist\StepDef\TaskEndpoint\DeleteTaskStepDef.class
 starter\todoist\TodoistAPI.class
 starter\todoist\Utils\TodoistResponse.class
 starter\todoist\Utils\Constant.class
@@ -6,8 +8,11 @@ starter\todoist\StepDef\CommentEndpoint\GetAllCommentsStepDef.class
 starter\todoist\StepDef\TaskEndpoint\CloseTaskStepDef.class
 starter\todoist\StepDef\TaskEndpoint\UpdateTaskStepdefs.class
 starter\todoist\StepDef\LabelsEndpoint\GetAllSharedLabelsStepDefs.class
+starter\todoist\StepDef\SectionsEndpoint\PostCreateSectionsStepDef.class
+starter\todoist\StepDef\SectionsEndpoint\UpdateSectionsStepDef.class
 starter\CucumberTestSuite.class
 starter\todoist\StepDef\LabelsEndpoint\RenameSharedLabelStepDefs.class
+starter\todoist\StepDef\SectionsEndpoint\GetAllSectionsStepdef.class
 starter\todoist\StepDef\LabelsEndpoint\UpdateALabelStepDefs.class
 starter\todoist\StepDef\CommentEndpoint\UpdateCommentStepDef.class
 starter\todoist\StepDef\CommentEndpoint\DeleteCommentStepDef.class
@@ -20,3 +25,4 @@ starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDef.class
 starter\todoist\StepDef\TaskEndpoint\ReopenTaskStepdefs.class
 starter\todoist\StepDef\CommentEndpoint\CreateNewCommentStepDef.class
 starter\todoist\Utils\TodoistResponses.class
+starter\todoist\StepDef\SectionsEndpoint\DeleteSectionsStepDef.class
