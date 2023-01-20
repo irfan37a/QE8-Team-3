@@ -1,28 +1,29 @@
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\DeleteLabelStepdefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\UpdateCommentStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\GetAllCommentsStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetAllLabelStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\Utils\Constant.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\DeleteTaskStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDeff.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\TodoistAPI.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\RemoveSharedLabelStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\CucumberTestSuite.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\CreateNewCommentStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\RenameSharedLabelStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\ReopenTaskStepdefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\UpdateTaskStepdefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\GetAllSectionsStepdef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetALabelStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\Utils\TodoistResponses.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\GetCommentStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\Utils\TodoistResponse.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\CreateLabelStepdefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\DeleteCommentStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\PostCreateSectionsStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\UpdateALabelStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\DeleteSectionsStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\CloseTaskStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDef.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetAllSharedLabelsStepDefs.java
-C:\Users\user\Desktop\BARU\BATCH08\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\UpdateSectionsStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\GetAllCommentsStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\DeleteTaskStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\ReopenTaskStepdefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\Utils\Constant.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\CreateNewCommentStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\UpdateCommentStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\Utils\TodoistResponses.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\RemoveSharedLabelStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDeff.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\UpdateTaskStepdefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\GetCommentStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\TodoistAPI.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetALabelStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetAllSharedLabelsStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\DeleteSectionsStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\UpdateSectionsStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\DeleteLabelStepdefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\UpdateALabelStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\TaskEndpoint\CloseTaskStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\CommentEndpoint\DeleteCommentStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\RenameSharedLabelStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\CreateLabelStepdefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\LabelsEndpoint\GetAllLabelStepDefs.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\GetSingleSectionsStepDef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\GetAllSectionsStepdef.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\CucumberTestSuite.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\Utils\TodoistResponse.java
+C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\java\starter\todoist\StepDef\SectionsEndpoint\PostCreateSectionsStepDef.java

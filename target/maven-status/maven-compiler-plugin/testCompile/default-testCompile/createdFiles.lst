@@ -25,4 +25,5 @@ starter\todoist\StepDef\TaskEndpoint\GetActiveTaskStepDef.class
 starter\todoist\StepDef\TaskEndpoint\ReopenTaskStepdefs.class
 starter\todoist\StepDef\CommentEndpoint\CreateNewCommentStepDef.class
 starter\todoist\Utils\TodoistResponses.class
+starter\todoist\StepDef\SectionsEndpoint\GetSingleSectionsStepDef.class
 starter\todoist\StepDef\SectionsEndpoint\DeleteSectionsStepDef.class

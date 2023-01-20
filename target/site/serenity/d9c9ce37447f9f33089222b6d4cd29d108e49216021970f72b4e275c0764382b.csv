@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Testing Todoist API for Get a Label endpoint","Get a label with valid id","SUCCESS","2023-01-20T15:11:19.422+07:00[Asia/Bangkok]","0.0","0.79"
-"Testing Todoist API for Get a Label endpoint","Get a label with invalid id","SUCCESS","2023-01-20T15:11:20.223+07:00[Asia/Bangkok]","0.0","0.33"
-"Testing Todoist API for Get a Label endpoint","Get a label with unauthorized token","SUCCESS","2023-01-20T15:11:20.571+07:00[Asia/Bangkok]","0.0","0.36"
+"Testing Todoist API for Get a Label endpoint","Get a label with valid id","SUCCESS","2023-01-20T16:38:08.106+07:00[Asia/Bangkok]","0.0","0.92"
+"Testing Todoist API for Get a Label endpoint","Get a label with invalid id","SUCCESS","2023-01-20T16:38:09.03+07:00[Asia/Bangkok]","0.0","0.89"
+"Testing Todoist API for Get a Label endpoint","Get a label with unauthorized token","SUCCESS","2023-01-20T16:38:09.922+07:00[Asia/Bangkok]","0.0","0.95"

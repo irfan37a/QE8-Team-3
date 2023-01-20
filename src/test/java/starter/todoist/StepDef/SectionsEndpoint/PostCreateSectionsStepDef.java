@@ -17,11 +17,11 @@ public class PostCreateSectionsStepDef {
     @Given("Post Create new sections with valid json")
     public void postCreateNewSectionsWithValidJson() {
         File json = new File(Constant.JSON_REQUEST+"CreateSections.json");
-        toDoIstApi.postNewComment(json);
+        toDoIstApi.posttCreateNewSection(json);
     }
 
     @When("Send request post create new sections")
     public void sendRequestPostCreateNewSections() {
-        SerenityRest.when().get(toDoIstApi.POST_CREATE_NEW_SECTIONS);
+        SerenityRest.when().post(TodoistAPI.POST_CREATE_NEW_SECTIONS);
     }
 }

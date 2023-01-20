@@ -14,14 +14,14 @@ public class UpdateSectionsStepDef {
     @Steps
     TodoistAPI toDoIstApi;
 
-    @Given("Post Update a sections")
-    public void postUpdateASections() {
+    @Given("Post Update a sections with id {string}")
+    public void postUpdateASections(String id) {
         File json = new File(Constant.JSON_REQUEST+"UpdateSections.json");
-        toDoIstApi.postNewComment(json);
+        toDoIstApi.putUpdateSection(id,json);
     }
 
     @When("Send request post Update a sections")
     public void sendRequestPostUpdateASections() {
-        SerenityRest.when().get(toDoIstApi.UPDATE_SECTIONS);
+        SerenityRest.when().post(TodoistAPI.UPDATE_SECTIONS);
     }
 }

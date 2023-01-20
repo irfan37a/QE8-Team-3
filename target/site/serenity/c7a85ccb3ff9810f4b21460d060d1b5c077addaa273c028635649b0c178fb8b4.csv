@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Testing todoist API for Delete a Label endpoint","Delete a label with valid id","SUCCESS","2023-01-20T15:11:17.31+07:00[Asia/Bangkok]","0.0","0.41"
-"Testing todoist API for Delete a Label endpoint","Delete a label with invalid id","FAILURE","2023-01-20T15:11:17.732+07:00[Asia/Bangkok]","0.0","0.83"
-"Testing todoist API for Delete a Label endpoint","Delete a label with unauthorized token","SUCCESS","2023-01-20T15:11:18.578+07:00[Asia/Bangkok]","0.0","0.82"
+"Testing todoist API for Delete a Label endpoint","Delete a label with valid id","SUCCESS","2023-01-20T16:38:05.77+07:00[Asia/Bangkok]","0.0","1.01"
+"Testing todoist API for Delete a Label endpoint","Delete a label with invalid id","FAILURE","2023-01-20T16:38:06.786+07:00[Asia/Bangkok]","0.0","0.87"
+"Testing todoist API for Delete a Label endpoint","Delete a label with unauthorized token","SUCCESS","2023-01-20T16:38:07.658+07:00[Asia/Bangkok]","0.0","0.44"
