@@ -39,7 +39,7 @@ public class TodoistAPI {
     public static String GET_SINGLE_SECTIONS = Constant.BASE_URL+"sections?id={id}";
     public static String POST_CREATE_NEW_SECTIONS = Constant.BASE_URL+"sections";
 
-    public static String UPDATE_SECTIONS = Constant.BASE_URL+"sections/7025";
+    public static String UPDATE_SECTIONS = Constant.BASE_URL+"sections/{id}";
 
     public static String DELETE_SECTIONS = Constant.BASE_URL + "sections/{id}";
     public static String DELETE_TASK = Constant.BASE_URL + "tasks/{id}";
@@ -457,7 +457,7 @@ public class TodoistAPI {
         SerenityRest.given()
                 .pathParam(TodoistResponse.ID, id);
     }
-    @Step
+    @Step("Get all sections")
     public void getAllLSections(String project_id){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
         String authToken = "Bearer " + token;
@@ -495,7 +495,7 @@ public class TodoistAPI {
                 .pathParam("id",id);
     }
 
-    @Step
+    @Step("Get single sections")
     public void getSingleSections(String id){
         String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
         String authToken = "Bearer " + token;
@@ -503,5 +503,28 @@ public class TodoistAPI {
         SerenityRest.given()
                 .headers("Authorization",authToken)
                 .pathParam(TodoistResponse.ID, id);
+    }
+
+    @Step("Put update section")
+    public void putUpdateSection(String id,File json){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .pathParam(TodoistResponse.ID, id)
+                .contentType(ContentType.JSON)
+                .body(json);
+    }
+
+    @Step("Post create new section")
+    public void posttCreateNewSection(File json){
+        String token = "bf57e110ca3d532fcbfb0e810e858518bb1b8b21";
+        String authToken = "Bearer " + token;
+
+        SerenityRest.given()
+                .headers("Authorization",authToken)
+                .contentType(ContentType.JSON)
+                .body(json);
     }
 }

@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 15:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 16:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
+                                <span class="success-color">
                                     Post create new sections
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -255,7 +255,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">014ms</span></td>
+                        <td width="100"><span class="top-level-step">007ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -272,7 +272,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Post create comment
+                                                Post create new section
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -311,7 +311,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">120ms</span></td>
+                        <td width="100"><span class="top-level-step">525ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -328,7 +328,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                GET https://api.todoist.com/rest/v2/sections
+                                                POST https://api.todoist.com/rest/v2/sections
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -345,18 +345,20 @@
                                 <div class="card-body">
                                     <h4>Response</h4>
                                         <p>URL: https://api.todoist.com/rest/v2/sections</p>
-                                        <p>Status code: 403</p>
+                                        <p>Status code: 200</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Authorization=Bearer 6cbd35bffb18682aba3874e9563f7f3d0d3b6ada<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                        <pre>Authorization=Bearer bf57e110ca3d532fcbfb0e810e858518bb1b8b21<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                         <h4>Content Body</h4>
-                                        <pre>C:\Users&#92;ser\Desktop\BARU\BATCH08\QE8-Team-3\src\test\resources\JSON\Request\CreateSections.json</pre>
+                                        <pre>C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\resources\JSON\Request\CreateSections.json</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Server: CloudFront<br>Date: Fri, 20 Jan 2023 08:11:30 GMT<br>Content-Type: text/html<br>Content-Length: 915<br>Connection: close<br>X-Cache: Error from cloudfront<br>Via: 1.1 230467e706f2010816822110eb513f1e.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK52-C1<br>X-Amz-Cf-Id: KPPGYfxNRNlPA2yMCGdu6s6PW1sld2BtMR-Za-70GnYQrf3AzvgM4Q==<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload</pre>
+                                        <pre>Content-Type: application/json<br>Content-Length: 89<br>Connection: keep-alive<br>Date: Fri, 20 Jan 2023 09:38:20 GMT<br>Access-Control-Allow-Credentials: false<br>Access-Control-Allow-Origin: *<br>Cache-Control: no-cache<br>Referrer-Policy: strict-origin-when-cross-origin<br>Set-Cookie: csrf=6e319d3db5114723a115e39400639ce7; Expires=Mon, 17-Jan-2033 09:38:20 GMT; Secure; Path=/; SameSite=None<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload<br>Vary: Accept-Encoding<br>X-Cache: Miss from cloudfront<br>Via: 1.1 b92b6d7289b75715d47da9ada20b8bee.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK50-P2<br>X-Amz-Cf-Id: PMh9DOkcwm3J2_lsQjvP0tPHynOA9GG2yWCBedegIQ4haNRpwCrmbg==</pre>
                                     <h4>Response Body</h4>
-                                        <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=iso-8859-1&quot;/&gt;<br>    &lt;title&gt;ERROR: The request could not be satisfied&lt;/title&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;h1&gt;403 ERROR&lt;/h1&gt;<br>    &lt;h2&gt;The request could not be satisfied.&lt;/h2&gt;<br>    &lt;hr noshade=&quot;noshade&quot; size=&quot;1px&quot;/&gt;<br><br>Bad request.<br>We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.<br>    &lt;br clear=&quot;all&quot;/&gt;<br><br>If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.<br>    &lt;br clear=&quot;all&quot;/&gt;<br>    &lt;hr noshade=&quot;noshade&quot; size=&quot;1px&quot;/&gt;<br>    &lt;pre&gt;<br>Generated by cloudfront (CloudFront)<br>Request ID: KPPGYfxNRNlPA2yMCGdu6s6PW1sld2BtMR-Za-70GnYQrf3AzvgM4Q==<br>&lt;/pre&gt;<br>    &lt;address/&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
+                                        <pre>{<br>    &quot;id&quot;: &quot;113139453&quot;,<br>    &quot;project_id&quot;: &quot;2306330948&quot;,<br>    &quot;order&quot;: 2,<br>    &quot;name&quot;: &quot;New Section&quot;<br>}</pre>
+                                        <h4>Response Cookies</h4>
+                                        <pre>csrf=6e319d3db5114723a115e39400639ce7;Path=/;Secure;Expires=1/17/33 9:38 AM;SameSite=None</pre>
                                 </div>
                             </div>
                         </div>
@@ -373,12 +375,12 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -392,51 +394,13 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">014ms</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">003ms</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: 1 expectation failed.<br>Expected status code &lt;200&gt; but was &lt;403&gt;.<br></span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-5""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-5">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)<br />io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)<br />io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)<br />io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy:-1)<br />groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)<br />groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1267)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)<br />io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:-1)<br />starter.todoist.StepDef.CommentEndpoint.CreateNewCommentStepDef.shouldReturnStatusCode(CreateNewCommentStepDef.java:38)<br />✽.Should return status code 200(classpath:features/Sections/CreateNewSections.feature:6)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.16s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.54s</em></span></td>
                 </tr>
 
             </table>

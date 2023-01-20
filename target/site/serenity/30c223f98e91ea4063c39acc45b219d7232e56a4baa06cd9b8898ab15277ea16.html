@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Create a new label with invalid token</title>
+    <title>Create a new label with empty name</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -127,8 +127,8 @@
             <a href="index.html" class="breadcrumbs">Home</a>
 
             > <a href="30adb978e759ce1db8e3feabd69e0e7b4521d4596abcf890f35af6e9e12fbc4d.html">Labels</a>
-            > <a href="512cccf93ccfea114502f8d787654248fdeefce54ad5bf07b9d8a9bb26da9fb5.html">Testing Todoist API For Create New User Endpoint</a>
-        > Create a new label with invalid token
+            > <a href="52daee32c766dbcf1497f93318fccd4ef9e0401c6cc4060be27294c00e0db81c.html">Testing Todoist API For Create New Label Endpoint</a>
+        > Create a new label with empty name
         </span>
         </div>
         <div class="rightbg"></div>
@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 15:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-01-2023 16:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -167,7 +167,7 @@
                                 <div>
                                     <h3 class="discreet-story-header">
                                         <i class="fa fa-2x fa-comments-o"></i>
-                                        <span class="story-header-title">Testing Todoist API For Create New User Endpoint </span>
+                                        <span class="story-header-title">Testing Todoist API For Create New Label Endpoint </span>
                                     </h3>
 
                                 </div>
@@ -192,7 +192,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Create a new label with invalid token
+                                    Create a new label with empty name
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -246,7 +246,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given Post create label with valid json invalid token
+                                                Given Post create label with empty name
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -255,7 +255,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">012ms</span></td>
+                        <td width="100"><span class="top-level-step">005ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -272,7 +272,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Post create label invalid token
+                                                Post create label
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -311,7 +311,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">787ms</span></td>
+                        <td width="100"><span class="top-level-step">480ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -345,20 +345,20 @@
                                 <div class="card-body">
                                     <h4>Response</h4>
                                         <p>URL: https://api.todoist.com/rest/v2/labels</p>
-                                        <p>Status code: 401</p>
+                                        <p>Status code: 400</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Authorization=Bearer bf57e110ca3d532fcbfb0e810e858518bb1b8b211<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                        <pre>Authorization=Bearer bf57e110ca3d532fcbfb0e810e858518bb1b8b21<br>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                         <h4>Content Body</h4>
-                                        <pre>C:\Users&#92;ser\Desktop\BARU\BATCH08\QE8-Team-3\src\test\resources\JSON\Request\CreateLabel.json</pre>
+                                        <pre>C:\Users\riseh\OneDrive\Desktop\alterra academy\QE8-Team-3\src\test\resources\JSON\Request\CreateLabel_empty.json</pre>
                                         <h4>Request Cookies</h4>
                                         <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Content-Type: text/plain; charset=utf-8<br>Content-Length: 9<br>Connection: keep-alive<br>Date: Fri, 20 Jan 2023 08:11:17 GMT<br>Access-Control-Allow-Credentials: false<br>Access-Control-Allow-Origin: *<br>Cache-Control: no-cache<br>Referrer-Policy: strict-origin-when-cross-origin<br>Set-Cookie: csrf=154039db60184e5aac59f1a895323c98; Expires=Mon, 17-Jan-2033 08:11:17 GMT; Secure; Path=/; SameSite=None<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload<br>Vary: Accept-Encoding<br>X-Cache: Error from cloudfront<br>Via: 1.1 324c63cc75521ddb30fc564630fc188a.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK52-C1<br>X-Amz-Cf-Id: RYs6ec7OdFpsMIRi9vHrX4YX4Y47-8yzUD9VyAd-YJBbO1B3z9OWFQ==</pre>
+                                        <pre>Content-Type: text/plain; charset=utf-8<br>Content-Length: 35<br>Connection: keep-alive<br>Date: Fri, 20 Jan 2023 09:38:04 GMT<br>Access-Control-Allow-Credentials: false<br>Access-Control-Allow-Origin: *<br>Cache-Control: no-cache<br>Referrer-Policy: strict-origin-when-cross-origin<br>Set-Cookie: csrf=a16e1d285886479aba60062630e8518f; Expires=Mon, 17-Jan-2033 09:38:04 GMT; Secure; Path=/; SameSite=None<br>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload<br>Vary: Accept-Encoding<br>X-Cache: Error from cloudfront<br>Via: 1.1 69c606ed948ad9d6268e8973fcafa45c.cloudfront.net (CloudFront)<br>X-Amz-Cf-Pop: CGK50-P2<br>X-Amz-Cf-Id: AaDO-dnzwI1fpUDiu_WXSO_EYvx-dYvgwgG1nsjE34IUIIOrj1dvJw==</pre>
                                     <h4>Response Body</h4>
-                                        <pre>Forbidden</pre>
+                                        <pre>Label name is required for creation</pre>
                                         <h4>Response Cookies</h4>
-                                        <pre>csrf=154039db60184e5aac59f1a895323c98;Path=/;Secure;Expires=1/17/33 8:11 AM;SameSite=None</pre>
+                                        <pre>csrf=a16e1d285886479aba60062630e8518f;Path=/;Secure;Expires=1/17/33 9:38 AM;SameSite=None</pre>
                                 </div>
                             </div>
                         </div>
@@ -387,7 +387,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Then API should return status code 401
+                                                Then API should return status code 400
                                         </span>
                                 <span class="evidence">
                                 </span>
@@ -395,12 +395,12 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">003ms</span></td>
+                        <td width="100"><span class="top-level-step"></span></td>
                     </tr>
                 <tr class="test-SUCCESS">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.82s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.49s</em></span></td>
                 </tr>
 
             </table>

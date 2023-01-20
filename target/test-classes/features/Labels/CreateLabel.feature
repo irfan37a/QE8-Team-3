@@ -1,5 +1,5 @@
 @GroupProject
-Feature: Testing Todoist API for Create New User Endpoint
+Feature: Testing Todoist API for Create New Label Endpoint
 
   Scenario: Create a new label with valid json request
     Given Post create label with valid json
